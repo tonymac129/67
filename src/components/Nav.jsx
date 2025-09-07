@@ -20,9 +20,9 @@ function Nav() {
         Home
       </Link>
       <div className="nav-links">
-        <Link className="nav-link">67 Facts</Link>
-        <Link className="nav-link">67 Kid</Link>
-        <Link className="nav-link">SCP-67</Link>
+        <Link className="nav-link" to="/facts">67 Facts</Link>
+        <Link className="nav-link" to="/kid">67 Kid</Link>
+        <Link className="nav-link"to="/scp-67">SCP-67</Link>
         <motion.img
           whileHover={{ scale: 1.3, rotate: 20 }}
           whileTap={{ scale: 1.1, rotate: 10 }}
